@@ -33,6 +33,9 @@ document.getElementById("form").addEventListener("submit", async function(e){
 
         alert("Formulário enviado com sucesso!");
 
+        // LIMPA TODOS OS CAMPOS
+        form.reset();
+
     }catch(error){
 
         console.error(error);
